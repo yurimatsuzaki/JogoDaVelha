@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de mentira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>JOGO DA VELHA</h1>
+
+        <section id="JogoDaVelha">
+            <div class="linha">
+                <button id="0-0" class="quad" onclick="jogada00()"> </button>
+                <button id="0-1" class="quad" onclick="jogada01()"> </button>
+                <button id="0-2" class="quad" onclick="jogada02()"> </button>
+            </div>
+            
+            <div class="linha">
+                <button id="1-0" class="quad" onclick="jogada10()"> </button>
+                <button id="1-1" class="quad" onclick="jogada11()"> </button>
+                <button id="1-2" class="quad" onclick="jogada12()"> </button>
+            </div>
+            
+            <div class="linha">
+                <button id="2-0" class="quad" onclick="jogada20()"> </button>
+                <button id="2-1" class="quad" onclick="jogada21()"> </button>
+                <button id="2-2" class="quad" onclick="jogada22()"> </button>
+            </div>
+        </section>
+
+        <section id="result">
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

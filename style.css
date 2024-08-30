@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+position: relative;
+background-color: antiquewhite;
+}
+
+main{
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    border: solid 1px black;
+    box-shadow: 2px 2px 1px rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+p, #cor{
+    text-align: center;
+}
+
+#JogoDaVelha{
+    margin-top: 50px
+}
+
+.linha{
+    text-align: center;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
