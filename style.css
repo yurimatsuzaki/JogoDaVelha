@@ -10,7 +10,7 @@ background-color: antiquewhite;
 }
 
 main{
-    height: 500px;
+    height: 590px;
     width: 400px;
     background-color: bisque;
     border: solid 1px black;
@@ -21,7 +21,7 @@ main{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 10%);
 }
 
 h1{
@@ -40,7 +40,7 @@ p, #cor{
 }
 
 #JogoDaVelha{
-    margin-top: 50px
+    margin-top: 30px
 }
 
 .linha{
@@ -52,6 +52,7 @@ button{
     height: 80px;
     margin: 5px;
     background-color: white;
+    transition: 0.4s;
 }
 
 #jogador{
@@ -79,4 +80,47 @@ button{
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+#placar{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(241, 195, 125);
+    margin: 20px auto 0px auto;
+    position: relative;
+}
+
+#placar-amarelo{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    background-color: yellow;
+    font-weight: bolder;
+    border-radius: 100%;
+    border: solid 2px black;
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    text-align: center;
+    align-items: baseline;
+    font-size: 1.6em;
+    
+}
+
+#placar-azul{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 100%;
+    border: solid 2px black;
+    position: absolute;
+    left: 118px;
+    top: 9px;
+    text-align: center;
+    align-items: baseline;
+    font-size: 1.6em;
 }
