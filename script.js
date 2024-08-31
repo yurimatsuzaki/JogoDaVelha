@@ -19,19 +19,29 @@ var quadrado9 = document.getElementById("2-2");
 function jogada00() {
   if (quadrado1.style.backgroundColor == "yellow" || quadrado1.style.backgroundColor == "blue") {
     alert("Escolha outro quadrado!");
-  }else {
+  }
+
+  else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+  
+  else {
     if (jogador == 0) {
       quadrado1.style.backgroundColor = "yellow";
       quadrado1.style.borderRadius='100%'
       jogador = 1;
       OrdemJogada.innerHTML = "Vez do jogador azul";
       vitoria()
+      cont()
+      empate()
     } else {
       quadrado1.style.backgroundColor = "blue";
       quadrado1.style.borderRadius='30%'
       jogador = 0;
       OrdemJogada.innerHTML = "Vez do jogador amarelo";
       vitoria()
+      cont()
+      empate()
     }
   }
 }
@@ -43,19 +53,28 @@ function jogada01() {
     quadrado2.style.backgroundColor == "blue"
   ) {
     alert("Escolha outro quadrado!");
-  } else {
+  }
+  
+  else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+  else {
     if (jogador == 0) {
       quadrado2.style.backgroundColor = "yellow";
       quadrado2.style.borderRadius='100%'
       jogador = 1;
       OrdemJogada.innerHTML = "Vez do jogador azul";
       vitoria()
+      cont()
+      empate()
     } else {
       quadrado2.style.backgroundColor = "blue";
       quadrado2.style.borderRadius='30%'
       jogador = 0;
       OrdemJogada.innerHTML = "Vez do jogador amarelo";
       vitoria()
+      cont()
+      empate()
     }
   }
 }
@@ -67,19 +86,28 @@ function jogada02() {
     quadrado3.style.backgroundColor == "blue"
   ) {
     alert("Escolha outro quadrado!");
-  } else {
+  }
+  
+  else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+  else {
     if (jogador == 0) {
       quadrado3.style.backgroundColor = "yellow";
       quadrado3.style.borderRadius='100%'
       jogador = 1;
       OrdemJogada.innerHTML = "Vez do jogador azul";
       vitoria()
+      cont()
+      empate()
     } else {
       quadrado3.style.backgroundColor = "blue";
       quadrado3.style.borderRadius='30%'
       jogador = 0;
       OrdemJogada.innerHTML = "Vez do jogador amarelo";
       vitoria()
+      cont()
+      empate()
     }
   }
 }
@@ -91,19 +119,28 @@ function jogada10() {
     quadrado4.style.backgroundColor == "blue"
   ) {
     alert("Escolha outro quadrado!");
-  } else {
+  }
+  
+  else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+  else {
     if (jogador == 0) {
       quadrado4.style.backgroundColor = "yellow";
       quadrado4.style.borderRadius='100%'
       jogador = 1;
       OrdemJogada.innerHTML = "Vez do jogador azul";
       vitoria()
+      cont()
+      empate()
     } else {
       quadrado4.style.backgroundColor = "blue";
       quadrado4.style.borderRadius='30%'
       jogador = 0;
       OrdemJogada.innerHTML = "Vez do jogador amarelo";
       vitoria()
+      cont()
+      empate()
     }
   }
 }
@@ -115,19 +152,28 @@ function jogada11() {
     quadrado5.style.backgroundColor == "blue"
   ) {
     alert("Escolha outro quadrado!");
-  } else {
+  }
+  
+  else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+  else {
     if (jogador == 0) {
       quadrado5.style.backgroundColor = "yellow";
       quadrado5.style.borderRadius='100%'
       jogador = 1
       OrdemJogada.innerHTML = "Vez do jogador azul";
       vitoria()
+      cont()
+      empate()
     } else {
       quadrado5.style.backgroundColor = "blue";
       quadrado5.style.borderRadius='30%'
       jogador = 0;
       OrdemJogada.innerHTML = "Vez do jogador amarelo";
       vitoria()
+      cont()
+      empate()
     }
   }
 }
@@ -139,19 +185,29 @@ function jogada12() {
       quadrado6.style.backgroundColor == "blue"
     ) {
       alert("Escolha outro quadrado!");
-    } else {
+    }
+    
+    else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+ 
+    else {
       if (jogador == 0) {
         quadrado6.style.backgroundColor = "yellow";
         quadrado6.style.borderRadius='100%'
         jogador = 1
         OrdemJogada.innerHTML = "Vez do jogador azul";
         vitoria()
+        cont()
+        empate()
       } else {
         quadrado6.style.backgroundColor = "blue";
         quadrado6.style.borderRadius='30%'
         jogador = 0;
         OrdemJogada.innerHTML = "Vez do jogador amarelo";
         vitoria()
+        cont()
+        empate()
       }
     }
   }
@@ -163,19 +219,29 @@ function jogada12() {
       quadrado7.style.backgroundColor == "blue"
     ) {
       alert("Escolha outro quadrado!");
-    } else {
+    }
+    
+    else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+ 
+    else {
       if (jogador == 0) {
         quadrado7.style.backgroundColor = "yellow";
         quadrado7.style.borderRadius='100%'
         jogador = 1
         OrdemJogada.innerHTML = "Vez do jogador azul";
         vitoria()
+        cont()
+        empate()
       } else {
         quadrado7.style.backgroundColor = "blue";
         quadrado7.style.borderRadius='30%'
         jogador = 0;
         OrdemJogada.innerHTML = "Vez do jogador amarelo";
         vitoria()
+        cont()
+        empate()
       }
     }
   }
@@ -187,19 +253,29 @@ function jogada12() {
       quadrado8.style.backgroundColor == "blue"
     ) {
       alert("Escolha outro quadrado!");
-    } else {
+    }
+    
+    else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+ 
+    else {
       if (jogador == 0) {
         quadrado8.style.backgroundColor = "yellow";
         quadrado8.style.borderRadius='100%'
         jogador = 1
         OrdemJogada.innerHTML = "Vez do jogador azul";
         vitoria()
+        cont()
+        empate()
       } else {
         quadrado8.style.backgroundColor = "blue";
         quadrado8.style.borderRadius='30%'
         jogador = 0;
         OrdemJogada.innerHTML = "Vez do jogador amarelo";
         vitoria()
+        cont()
+        empate()
       }
     }
   }
@@ -211,19 +287,29 @@ function jogada12() {
       quadrado9.style.backgroundColor == "blue"
     ) {
       alert("Escolha outro quadrado!");
-    } else {
+    }
+    
+    else if(vitoria() == 0 || vitoria() == 1){
+    alert("Recomece o jogo!");
+  }
+ 
+    else {
       if (jogador == 0) {
         quadrado9.style.backgroundColor = "yellow";
         quadrado9.style.borderRadius='100%'
         jogador = 1
         OrdemJogada.innerHTML = "Vez do jogador azul";
         vitoria()
+        cont()
+        empate()
       } else {
         quadrado9.style.backgroundColor = "blue";
         quadrado9.style.borderRadius='30%'
         jogador = 0;
         OrdemJogada.innerHTML = "Vez do jogador amarelo";
         vitoria()
+        cont()
+        empate()
       }
     }
   }
@@ -238,19 +324,37 @@ function reset() {
   OrdemJogada.innerHTML = " ";
 }
 
+function cont(){
+  if(vitoria() == 0){
+    Cont1++
+    placarAmarelo.innerHTML=(`${Cont1}`)
+  }
+  else if(vitoria() == 1){
+    Cont2++
+    placarAzul.innerHTML=(`${Cont2}`)
+  }
+}
 
 function vitoria(){
     if(quadrado1.style.backgroundColor == 'yellow' && quadrado2.style.backgroundColor == 'yellow' && quadrado3.style.backgroundColor == 'yellow' || quadrado4.style.backgroundColor == 'yellow' && quadrado5.style.backgroundColor == 'yellow' && quadrado6.style.backgroundColor == 'yellow' || quadrado7.style.backgroundColor == 'yellow' && quadrado8.style.backgroundColor == 'yellow' && quadrado9.style.backgroundColor == 'yellow' || quadrado1.style.backgroundColor == 'yellow' && quadrado4.style.backgroundColor == 'yellow' && quadrado7.style.backgroundColor == 'yellow' || quadrado2.style.backgroundColor == 'yellow' && quadrado5.style.backgroundColor == 'yellow' && quadrado8.style.backgroundColor == 'yellow' || quadrado3.style.backgroundColor == 'yellow' && quadrado6.style.backgroundColor == 'yellow' && quadrado9.style.backgroundColor == 'yellow' || quadrado1.style.backgroundColor == 'yellow' && quadrado5.style.backgroundColor == 'yellow' && quadrado9.style.backgroundColor == 'yellow' || quadrado3.style.backgroundColor == 'yellow' && quadrado5.style.backgroundColor == 'yellow' && quadrado7.style.backgroundColor == 'yellow'){
             OrdemJogada.innerHTML = "VITÓRIA DO AMARELO!";
 
-            Cont1++
-            placarAmarelo.innerHTML=(`${Cont1}`)
-    }
+            return 0;
+          }
+          
+          else if(quadrado1.style.backgroundColor == 'blue' && quadrado2.style.backgroundColor == 'blue' && quadrado3.style.backgroundColor == 'blue' || quadrado4.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado6.style.backgroundColor == 'blue' || quadrado7.style.backgroundColor == 'blue' && quadrado8.style.backgroundColor == 'blue' && quadrado9.style.backgroundColor == 'blue' || quadrado1.style.backgroundColor == 'blue' && quadrado4.style.backgroundColor == 'blue' && quadrado7.style.backgroundColor == 'blue' || quadrado2.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado8.style.backgroundColor == 'blue' || quadrado3.style.backgroundColor == 'blue' && quadrado6.style.backgroundColor == 'blue' && quadrado9.style.backgroundColor == 'blue' || quadrado1.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado9.style.backgroundColor == 'blue' || quadrado3.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado7.style.backgroundColor == 'blue'){
+            OrdemJogada.innerHTML = "VITÓRIA DO AZUL!";
 
-    else if(quadrado1.style.backgroundColor == 'blue' && quadrado2.style.backgroundColor == 'blue' && quadrado3.style.backgroundColor == 'blue' || quadrado4.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado6.style.backgroundColor == 'blue' || quadrado7.style.backgroundColor == 'blue' && quadrado8.style.backgroundColor == 'yellow' && quadrado9.style.backgroundColor == 'blue' || quadrado1.style.backgroundColor == 'blue' && quadrado4.style.backgroundColor == 'blue' && quadrado7.style.backgroundColor == 'blue' || quadrado2.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado8.style.backgroundColor == 'blue' || quadrado3.style.backgroundColor == 'blue' && quadrado6.style.backgroundColor == 'blue' && quadrado9.style.backgroundColor == 'blue' || quadrado1.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado9.style.backgroundColor == 'blue' || quadrado3.style.backgroundColor == 'blue' && quadrado5.style.backgroundColor == 'blue' && quadrado7.style.backgroundColor == 'blue'){
-        OrdemJogada.innerHTML = "VITÓRIA DO AZUL!";
-
-        Cont2++
-            placarAzul.innerHTML=(`${Cont2}`)
+            return 1;
     }
+}
+
+function empate(){
+  for(let i = 0; i < 9; i++){
+    let quadra = document.getElementsByClassName("quad")[i];
+
+    if(quadra.style.backgroundColor != 'white' && vitoria() != 0 && vitoria() != 1){
+      OrdemJogada.innerHTML = "EMPATE!!";
+    }
+  }
 }
